@@ -1,0 +1,39 @@
+<?php /* Smarty version Smarty-3.1.19, created on 2015-04-09 22:23:06
+         compiled from "C:\xampp\htdocs\claudiasaer\admin\themes\default\template\controllers\slip\_print_pdf_icon.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:228795526dfaa4b4386-46162683%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '33b53f2997a23b848a41213fcd2a4db011914274' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\claudiasaer\\admin\\themes\\default\\template\\controllers\\slip\\_print_pdf_icon.tpl',
+      1 => 1428439046,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '228795526dfaa4b4386-46162683',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'link' => 0,
+    'order_slip' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5526dfaa4c5e29_48947595',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5526dfaa4c5e29_48947595')) {function content_5526dfaa4c5e29_48947595($_smarty_tpl) {?>
+
+
+
+<a class="btn btn-default _blank" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getAdminLink('AdminPdf'), ENT_QUOTES, 'UTF-8', true);?>
+&amp;submitAction=generateOrderSlipPDF&amp;id_order_slip=<?php echo intval($_smarty_tpl->tpl_vars['order_slip']->value->id);?>
+">
+	<i class="icon-file-text"></i>
+	<?php echo smartyTranslate(array('s'=>'Download credit slip'),$_smarty_tpl);?>
+
+</a>
+
+<?php }} ?>

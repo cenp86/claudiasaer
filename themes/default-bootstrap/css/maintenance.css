@@ -1,0 +1,71 @@
+/*********************************************************************
+					Maintenance Page Styles
+**********************************************************************/
+body{margin: 0px !important; font: 400 12px/1.42857 "Open Sans",Helvetica,Arial,sans-serif;}
+#maintenance {
+  margin: 50px 0 0 0; }
+  @media (min-width: 1200px) {
+    #maintenance {
+      padding: 91px 48px 365px 297px;
+      background: url(../img/bg_maintenance.png) no-repeat; } }
+  #maintenance .logo {
+    margin: 0 0 31px 0; }
+  #maintenance h1 {
+    font: 600 28px/34px "Open Sans", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d6d4d4;
+    padding: 0 0 14px 0;
+    margin: 0 0 19px 0; }
+  #maintenance #message {
+    font: 600 16px/31px "Open Sans", sans-serif;
+    padding: 0 0 0 18px;
+    color: #555454;
+    text-transform: uppercase; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+@media only screen and (min-width: 1200px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0; } }
+ #login-footer {
+    width: 100%;
+    padding: 7px 0px;
+    margin: 0px 0px 0px 0px;
+    color: #aaa;
+    font-size: 11px;
+    background-color: black;
+    float: left;
+    border-top: 3px solid #666;
+}
+
+#login-footer a:link , #login-footer a:visited {
+    color: #aaa;
+}
+
+#login-footer a:hover {
+    color: #aaa;
+}
+
+.fcred {
+    text-align: center;
+    margin: 0px auto;
+    line-height: 16px;
+    padding-top:10px;
+}
+#cenp{float:right; width: 98px; height: 40px; background:url(/img/cenp.png) no-repeat; margin-right: 25px}
+/*# sourceMappingURL=maintenance.css.map */
